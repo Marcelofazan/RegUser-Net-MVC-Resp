@@ -2,7 +2,7 @@
 
 Exemplo de utilização do AdminLte com criação de Conta de Usuário em MVC com banco de dados Mysql acessando por dicionário de dados
 
-* Template AdminLTE 3.2 - 
+* Template Responsivo AdminLTE 3.2 - rc
 
 
 ## Disponivel em (https://adminlte.io/ )
@@ -31,7 +31,6 @@ Para executar a aplicação é necessário a execução do Script do MySql.
 
 
 ## String de conexão do banco
-
 
 Se já possuir um banco de dados MySql e deseja utilizá-lo na aplicação, modifique a string de conexão no arquivo **Web.config**, no trecho indicado:
 
