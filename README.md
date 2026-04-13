@@ -1,4 +1,4 @@
-# Registro Conta Usuario AdminLTE
+# Exemplo de Criação de Tela de Login de Usuario AdminLTE
 
 Exemplo de utilização do AdminLte com criação de Conta de Usuário em MVC com banco de dados Mysql acessando por dicionário de dados
 
