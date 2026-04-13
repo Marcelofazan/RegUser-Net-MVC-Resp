@@ -16,8 +16,8 @@ Baixar Pacote de Distribuição de Download da Biblioteca e descompactar
 
 Criar uma nova pasta chamada adminlte na raiz do projeto
 
-- Na Pasta AdminLTE-3.2.0-rc /dist -> Copiar as pastas css, img e js e colocar dentro da pasta adminlte
-- Na Pasta AdminLTE-3.2.0-rc /plugins -> Copiar as pasta plugins e colar dentro da pasta adminlte
+- Na Pasta AdminLTE-3.2.0-rc /dist -> Copiar as pastas css, img e js e Colar dentro da pasta adminlte
+- Na Pasta AdminLTE-3.2.0-rc /plugins -> Copiar as pasta plugins e Colar dentro da pasta adminlte
 
 # O que você vai encontrar neste projeto
 
