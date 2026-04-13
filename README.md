@@ -1,12 +1,16 @@
-ERPSimplesLTE
+# Registro Conta Usuario AdminLTE
 
-Exemplo Conta de Usuário em MVC com banco de dados Mysql acessando por dicionário de dados
+Exemplo de utilização do AdminLte com criação de Conta de Usuário em MVC com banco de dados Mysql acessando por dicionário de dados
 
-* Template AdminLTE 3.2 - https://adminlte.io/ 
-https://github.com/ColorlibHQ/AdminLTE/archive/refs/tags/v3.2.0-rc.zip
+* Template AdminLTE 3.2 - 
 
 
-Modo de Instalação:
+## Disponivel em (https://adminlte.io/ )
+
+  - [AdminLTE](https://github.com/ColorlibHQ/AdminLTE/archive/refs/tags/v3.2.0-rc.zip)
+
+
+## Requisitos
 
 Baixar Pacote de Distribuição de Download da Biblioteca e descompactar
 
@@ -15,19 +19,27 @@ Criar uma nova pasta chamada adminlte na raiz do projeto
 - Na Pasta AdminLTE-3.2.0-rc /dist -> Copiar as pastas css, img e js e colocar dentro da pasta adminlte
 - Na Pasta AdminLTE-3.2.0-rc /plugins -> Copiar as pasta plugins e colar dentro da pasta adminlte
 
-Criação do Script:
+# O que você vai encontrar neste projeto
 
-<b>
-CREATE TABLE Usuarios (
-  Id int(11) NOT NULL AUTO_INCREMENT,
-  Login varchar(100) DEFAULT NULL,
-  Senha varchar(20) DEFAULT NULL,
-  SenhaConfirmar varchar(20) DEFAULT NULL,
-  Nome varchar(80) DEFAULT NULL,
-  Email varchar(120) DEFAULT NULL,
-  Celular varchar(15) DEFAULT NULL,
-  Supervisor int(11) DEFAULT 0,
-  TaxaPercentual double(5,2) DEFAULT NULL,
-  PRIMARY KEY (Id)
-);
-</b>
+- **AdminLTE** - Layout Responsivo JavaScript e uso de biblioteca. 
+- **Dicionário de Dados** - Contexto definido realizado manualmente com T-SQL.
+
+
+## Execução da aplicação
+
+Para executar a aplicação é necessário a execução do Script do MySql. 
+
+
+## String de conexão do banco
+
+
+Se já possuir um banco de dados MySql e deseja utilizá-lo na aplicação, modifique a string de conexão no arquivo **Web.config**, no trecho indicado:
+
+```bash
+...
+		server=127.0.0.1;userid=root;password=SUASENHA;database=SEUBANCO;persistsecurityinfo=True
+...
+
+```
+
+O script para criação da tabela do exemplo e alguns dados iniciais encontra-se na pasta **Database**.
