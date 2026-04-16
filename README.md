@@ -1,10 +1,10 @@
-# Criação de Tela de Login de Usuario AdminLTE
+# Registro-Usuario-AdminLTE
 
-Exemplo de utilização do AdminLte com criação de formulário de Conta de Usuário em MVC com banco de dados Mysql acessando por dicionário de dados, utilizando AdminLTE
+Exemplo de utilização do AdminLte com Registro de Usuário em MVC com banco de dados Mysql acessando por dicionário de dados.
+
+## AdminLTE em (https://adminlte.io/ )
 
 * Template Responsivo AdminLTE 3.2 - rc
-
-## Disponivel em (https://adminlte.io/ )
 
   - [AdminLTE](https://github.com/ColorlibHQ/AdminLTE/archive/refs/tags/v3.2.0-rc.zip)
 
@@ -32,7 +32,7 @@ Modifique a string de conexão no arquivo **Web.config**, no trecho indicado:
 
 ```bash
 ...
-		server=127.0.0.1;userid=root;password=SUASENHA;database=SEUBANCO;persistsecurityinfo=True
+		server=127.0.0.1;userid=root;password=SUASENHA;database=SEUBANCO;persistsecurityinfo=True;
 ...
 
 ```
